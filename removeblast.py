@@ -2,7 +2,7 @@ import sys #brining in the sys function
 
 if __name__ == "__main__":
 	if len(sys.argv) != 4:
-		print "python " + sys.argv[0] + " GenomeCDS blastfile pulled" 
+		print "python " + sys.argv[0] + " GenomeCDS blastfile outputfilename" 
 		sys.exit(0)
 
 
